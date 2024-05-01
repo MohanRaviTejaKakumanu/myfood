@@ -1,0 +1,27 @@
+{
+  "name": "namaste-react2",
+  "version": "1.0.0",
+  "description": "I am a developer",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohanRaviTejaKakumanu/myfood.git"
+  },
+  "author": "Ravi Teja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohanRaviTejaKakumanu/myfood/issues"
+  },
+  "homepage": "https://github.com/MohanRaviTejaKakumanu/myfood#readme",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  }
+}
