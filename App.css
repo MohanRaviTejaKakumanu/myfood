@@ -20,13 +20,18 @@
   font-size: 24px;
 }
 
+.login-btn {
+  padding: 0px 20px;
+  margin-right: 15px;
+}
+
 .card-img {
   height: 200px;
   width: 100px;
 }
 
 .card {
-  height: 300px;
+  height: 400px;
   width: 200px;
   background-color: rgb(242, 239, 239);
 }
@@ -51,4 +56,29 @@
 
 .card-details {
   padding: 5px;
+}
+
+.toprated {
+  margin: 10px;
+}
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shimmer-card {
+  height: 400px;
+  width: 200px;
+  background-color: rgb(242, 239, 239);
+  margin: 5px;
+}
+
+.search-toprated {
+  display: flex;
+  align-items: center;
+}
+
+.search-btn {
+  margin: 10px;
 }
