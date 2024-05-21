@@ -7,7 +7,7 @@ const Body = () => {
   const [listOfRestaurant, setListOfRestaurant] = useState([]);
   const [filteredListOfRestaurant, setFilteredListOfRestaurant] = useState([]);
   const [searchText, setSearchText] = useState("");
-  console.log("body rendered");
+
   useEffect(() => {
     fetchData();
   }, []);
@@ -51,7 +51,7 @@ const Body = () => {
                   .toLowerCase()
                   .includes(searchText.toLowerCase());
               });
-              console.log(filteredRestaurant);
+
               setFilteredListOfRestaurant(filteredRestaurant);
             }}
           >
